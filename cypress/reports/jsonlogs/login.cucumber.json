@@ -22,7 +22,7 @@
             "name": "the user navigates to the login page",
             "result": {
               "status": "passed",
-              "duration": 1067000000
+              "duration": 1243000000
             }
           },
           {
@@ -31,8 +31,9 @@
             "line": 5,
             "name": "the user enters valid credentials",
             "result": {
-              "status": "passed",
-              "duration": 566000000
+              "status": "failed",
+              "duration": 220000000,
+              "error_message": "CypressError: `cy.type()` cannot accept an empty string. You need to actually type something.\n    at Context.type (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:115334:68)\n    at wrapped (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:138450:19)\nFrom Your Spec Code:\n    at LoginPage.fillPassword (cypress/page_objects/LoginPage.js:17:28)\n    at Context.eval (cypress/integration/features/login/loginSteps.js:12:12)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -41,8 +42,7 @@
             "line": 6,
             "name": "the user clicks the login button",
             "result": {
-              "status": "passed",
-              "duration": 86000000
+              "status": "skipped"
             }
           },
           {
@@ -51,8 +51,7 @@
             "line": 7,
             "name": "the user should be redirected to the Products Page",
             "result": {
-              "status": "passed",
-              "duration": 5000000
+              "status": "skipped"
             }
           }
         ]
