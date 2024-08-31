@@ -48,7 +48,8 @@ ________________________________________________________________________________
 Funcionalidades futuras 🔮
 
     Este proyecto está en constante evolución, y algunas características planificadas incluyen:
-
+    
+    - Integración con OpenAI - chatGPT para generar escenarios de prueba automáticamente.
     - Consultas a bases de datos mediante tareas personalizadas.
     - Expansión del conjunto de pruebas, tanto para E2E como para API.
     - Mayor integración con servicios y herramientas de CI/CD.

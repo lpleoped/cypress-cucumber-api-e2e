@@ -9,7 +9,7 @@ class LoginPage {
 
     // Método para llenar el campo de nombre de usuario
     fillUsername(username) {
-        cy.get('#user-name').type(username);  // Selecciona el campo de usuario y escribe el nombre
+        cy.get('[data-test="username"]').type('Lidia');  // Selecciona el campo de usuario y escribe el nombre
     }
 
     // Método para llenar el campo de contraseña
